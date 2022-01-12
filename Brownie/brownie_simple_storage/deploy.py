@@ -18,7 +18,6 @@ def get_account():
     if network.show_active() == "development":
         return accounts[0]
     else:
-        # return accounts.add(e91be63de5764b26a7f8011bf0e373b5)
         return accounts.load("first-rink-account")
 
 
